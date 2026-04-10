@@ -65,7 +65,7 @@ export const projects: Project[] = [
       'Admin dashboard via Sanity Studio',
     ],
     tags: ['Next.js', 'Sanity CMS', 'Stripe', 'Resend', 'Vercel'],
-    imagePath: '/images/fleaRdam.png',
+    imagePath: '/images/fleardam.png',
     liveUrl: 'https://fleardam-lyart.vercel.app/',
   },
   {
