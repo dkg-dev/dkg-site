@@ -65,8 +65,8 @@ export const projects: Project[] = [
       'Admin dashboard via Sanity Studio',
     ],
     tags: ['Next.js', 'Sanity CMS', 'Stripe', 'Resend', 'Vercel'],
-    imagePath: null,
-    liveUrl: null,
+    imagePath: '/images/fleaRdam.png',
+    liveUrl: 'https://fleardam-lyart.vercel.app/',
   },
   {
     slug: 'drunk-knight-games',
@@ -80,8 +80,8 @@ export const projects: Project[] = [
       'Smooth, responsive shopping UI',
     ],
     tags: ['React', 'Tailwind CSS'],
-    imagePath: null,
-    liveUrl: null,
+    imagePath: '/images/drunkknightgames.png',
+    liveUrl: 'https://drunkknightgames.netlify.app/',
   },
 ];
 
