@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
@@ -30,9 +31,18 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="rounded font-bold text-xl tracking-tight text-text hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          className="flex items-center rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
-          DKG
+          <Image
+            src="/images/wordmark.svg"
+            alt="DKG"
+            width={112}
+            height={56}
+            className="h-16 w-auto"
+            priority
+            loading="eager"
+            unoptimized
+          />
         </Link>
 
         {/* Desktop nav */}

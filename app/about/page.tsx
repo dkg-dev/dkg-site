@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { aboutCopy, howIWork, techStack } from '@/lib/content';
 
 export const metadata: Metadata = {
@@ -83,6 +84,16 @@ export default function AboutPage() {
 
       {/* ── Intro block ───────────────────────────── */}
       <section className="mx-auto max-w-[1100px] px-6 pb-24">
+        <div className="mb-10 flex justify-center">
+          <Image
+            src="/images/logomark-wordmark.svg"
+            alt="DKG"
+            width={300}
+            height={122}
+            className="w-full max-w-[300px] h-auto"
+            unoptimized
+          />
+        </div>
         <div className="flex flex-col gap-5 max-w-2xl">
           {aboutCopy.map((paragraph, i) => (
             <p
